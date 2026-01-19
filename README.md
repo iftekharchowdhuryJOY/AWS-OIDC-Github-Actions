@@ -1,4 +1,3 @@
-```markdown
 # 🏗️ AWS OIDC & GitHub Actions (Terraform Guide)
 
 This guide documents the **Infrastructure as Code (IaC)** method to connect GitHub Actions to AWS. This is the preferred, professional way to manage permissions.
@@ -84,7 +83,6 @@ Update your `.github/workflows/oidc-test.yml` with the new ARN:
         role-to-assume: arn:aws:iam::123456789012:role/GitHubActions-OIDC-Role-TF # <--- Paste Terraform Output here
         aws-region: us-east-1
 
-```
 
 ## 🧹 Cleanup (Destruction)
 
